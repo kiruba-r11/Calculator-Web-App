@@ -121,5 +121,44 @@ for(var i = 0; i < arrayOfButtons.length; i++) {
     });
 }
 
+var switchElement = document.getElementsByClassName("switch")[0];
+switchElement.addEventListener("click" , function (event) {
+	if(event.target.checked === true) {
+		document.getElementsByClassName("theme-text")[0].classList.add("theme-text-1");
+		document.getElementsByClassName("navbar-brand")[0].classList.add("navbar-brand-1");
+		document.getElementsByClassName("ans-box")[0].classList.add("ans-box-1");
+		document.getElementsByClassName("keypad")[0].classList.add("keypad-light");
+		document.getElementsByClassName("btn")[0].classList.add("btn-1");
+		document.getElementsByClassName("blue-btn")[0].classList.add("green-btn");
+		document.getElementsByClassName("blue-btn")[1].classList.add("green-btn");
+		document.getElementsByClassName("red-btn")[0].classList.add("orange-btn");
+		document.querySelector("body").classList.add("body");
+		document.querySelector("h1").classList.add("h1-1");
+	} else {
+		document.getElementsByClassName("theme-text")[0].classList.remove("theme-text-1");
+		document.getElementsByClassName("navbar-brand")[0].classList.remove("navbar-brand-1");
+		document.getElementsByClassName("ans-box")[0].classList.remove("ans-box-1");
+		document.getElementsByClassName("keypad")[0].classList.remove("keypad-light");
+		document.getElementsByClassName("btn")[0].classList.remove("btn-1");
+		document.getElementsByClassName("blue-btn")[0].classList.remove("green-btn");
+		document.getElementsByClassName("blue-btn")[1].classList.remove("green-btn");
+		document.getElementsByClassName("red-btn")[0].classList.remove("orange-btn");
+		document.querySelector("body").classList.remove("body");
+		document.querySelector("h1").classList.remove("h1-1");
+	}
+});
+
 var dotCount = 0;
 var operatorCount = 0;
+
+
+
+
+
+
+
+
+
+
+
+

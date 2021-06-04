@@ -3,12 +3,49 @@ body {
 	font-family: 'Spartan';
 }
 
+.body {
+	background-color: hsl(0, 0%, 90%);
+}
+
+.navbar {
+	margin-left: 2px;
+	margin-top: 50px;
+}
+
+.navbar-brand-1 {
+	color: hsl(60, 10%, 19%) !important;
+}
+
+.theme-text {
+	color: white;
+	margin-left: 10px;
+	font-size: 10px;
+}
+
+.theme-text-1 {
+	color:  hsl(60, 10%, 19%);
+}
+
+.navbar-brand {
+	font-size: 2rem;
+}
+
 .ans-box {
 	overflow: auto;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	padding: 20px;
+	background-color: hsl(224, 36%, 15%);
+	height: 150px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	border-radius: 10px;
+}
+
+
+.ans-box-1 {
+	background-color: hsl(0, 0%, 98%);
 }
 
 h1 {
@@ -16,16 +53,12 @@ h1 {
 	color: white;
 }
 
-.container {
-	width: 550px;
+.h1-1 {
+	color: hsl(60, 10%, 19%);
 }
 
-.ans-box {
-	background-color: hsl(224, 36%, 15%);
-	height: 150px;
-	margin-top: 50px;
-	margin-bottom: 25px;
-	border-radius: 10px;
+.container {
+	width: 550px;
 }
 
 .row {
@@ -46,6 +79,10 @@ h1 {
 	margin-bottom: 50px;
 }
 
+.keypad-light {
+	background-color: hsl(0, 5%, 81%);
+}
+
 
 .btn {
 	border-radius: 8px;
@@ -58,6 +95,12 @@ h1 {
 	box-shadow: 1px 7px 5px hsl(28, 16%, 65%);
 }
 
+.btn-1 {
+	color: hsl(60, 10%, 19%);
+	background-color: hsl(45, 7%, 89%);
+	box-shadow: 1px 7px 5px hsl(35, 11%, 61%);
+}
+
 .blue-btn {
 	font-size: 1.5rem;
 	color: white;
@@ -65,11 +108,21 @@ h1 {
 	box-shadow: 1px 7px 5px hsl(224, 28%, 35%);
 }
 
+.green-btn {
+	background-color: hsl(185, 42%, 37%);
+	box-shadow: 1px 7px 5px hsl(185, 58%, 25%);
+}
+
 .red-btn {
 	font-size: 1.5rem;
 	color: white;
 	background-color: hsl(6, 63%, 50%);
 	box-shadow: 1px 7px 5px hsl(6, 70%, 34%);
+}
+
+.orange-btn {
+	background-color: hsl(25, 98%, 40%);
+	box-shadow: 1px 7px 5px hsl(25, 99%, 27%);
 }
 
 .red-btn:hover {

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Calculator</title>
 
 	<!-- Bootstrap -->
@@ -18,11 +19,11 @@
 	<link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
-
+<body class="dark-theme">
 
 	<div class="container">
 
+		<!-- Navigation Bar -->
 		<nav class="navbar navbar-dark">
 			<a class="navbar-brand" href="">calc</a>
 			<div class="form-check switch form-switch">
@@ -31,14 +32,15 @@
 			</div>
 		</nav>
 
-			
+		<!-- Answer Box -->
 		<div class="ans-box">
-			<h1 class="ans-text"></h1>
+			<h1 class="number-input ans-text"></h1>
 		</div>
 
+		<!-- Keypad with Buttons -->
 		<div class="keypad">
+
 			<div class="row">
-				
 				<div class="col-3 text-center">
 					<button class="btn" type="button">7</button>
 				</div>
@@ -51,11 +53,9 @@
 				<div class="col-3 text-center">
 					<button class="btn blue-btn" type="button">DEL</button>
 				</div>
-
 			</div>
 
 			<div class="row">
-				
 				<div class="col-3 text-center">
 					<button class="btn" type="button">4</button>
 				</div>
@@ -68,11 +68,9 @@
 				<div class="col-3 text-center">
 					<button class="btn" type="button">+</button>
 				</div>
-
 			</div>
 
 			<div class="row">
-				
 				<div class="col-3 text-center">
 					<button class="btn" type="button">1</button>
 				</div>
@@ -85,11 +83,9 @@
 				<div class="col-3 text-center">
 					<button class="btn" type="button">-</button>
 				</div>
-
 			</div>
 
 			<div class="row">
-				
 				<div class="col-3 text-center">
 					<button class="btn" type="button">.</button>
 				</div>
@@ -102,23 +98,22 @@
 				<div class="col-3 text-center">
 					<button class="btn" type="button">*</button>
 				</div>
-
 			</div>
 
 			<div class="row">
-				
 				<div class="col-6 text-center">
 					<button class="btn blue-btn" type="button">RESET</button>
 				</div>
 				<div class="col-6 text-center">
 					<button class="btn red-btn" type="button">=</button>
 				</div>
-
 			</div>
+
 		</div>
 
 	</div>
 
-	<script src="index.js"></script>	
+	<!-- JS Scripts -->
+	<script src="js/index.js"></script>	
 </body>
 </html>
